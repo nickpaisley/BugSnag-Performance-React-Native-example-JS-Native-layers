@@ -47,5 +47,10 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>bugsnag</key>
+	<dict>
+		<key>apiKey</key>
+		<string>b0fc114acaec0ceffc4e8e617b98870b</string>
+	</dict>
 </dict>
 </plist>

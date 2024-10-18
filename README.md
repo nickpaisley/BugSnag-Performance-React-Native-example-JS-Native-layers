@@ -1,6 +1,18 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+## This is a React Native v0.73 project utilizing BugSnag Performance Monitoring in the JS and Native layers.  
 
-# Getting Started
+`netInfo v8.0.0` is being used.
+
+Flipper was disabled by commenting out line `37` in the `Podfile`. 
+
+netinfo v8.0.0 force downgraded:
+`npm install --legacy-peer-deps`
+
+Reliably starting the app can be done by running the following commands:  
+In terminal 1 = `npx react-native start --reset-cache`  
+In terminal 2 = `npx react-native run-ios`  
+<br>
+### Boilerplate RN readme below
+## Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
